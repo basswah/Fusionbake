@@ -6,7 +6,8 @@ export default {
       colors: {
         primary: "#c2a673",
         secondary: "#0e0e0d",
-        third : "#eee"
+        third : "#eee",
+        cardBg : "#1a1a1a"
       },
       fontFamily: {
         lato: ["Lato", "sans-seri"],

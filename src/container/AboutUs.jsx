@@ -1,26 +1,19 @@
-import { BgImage } from "../assets";
+import { Gallery } from "../assets";
 
-const bgImage = {
-  backgroundImage: `url(${BgImage})`,
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-};
 
 const AboutUs = () => {
   return (
-    <section style={bgImage}>
-      <div className="h-[25vw] md:h-[20vw] relative grid grid-cols-1 place-items-center ">
-        <div className=" flex text-center items-center w-[70%] h-full ">
-          <h1 className=" text-white font-bold text-xs md:text-xl xl:text-3xl z-10 ">
-            Découvrez notre large gamme de confiseries orientales et arabes,
-            ainsi que nos plats et pâtisseries fraîchement préparés. Nous
-            proposons également des plats cuisinés et des sandwichs pour tous
-            les goûts
-          </h1>
-        </div>
-        <div className=" h-full bg-secondary absolute inset-0 opacity-50" />
-      </div>
+    <section >
+<div className=" grid grid-cols-1 md:grid-cols-2 content-center place-items-center max-md:text-center px-10 py-16 space-x-2">
+   <div className="flex flex-col max-md:items-center mb-8 md:mb-0">
+    <span className="capitalize text-primary ">sur fusionbake</span>
+    <h1 className="text-white text-lg md:text-2xl xl:text-3xl font-semibold w-[80%] ">Une fusion de saveurs internationales et locales, revisitée avec créativité pour votre plus grand plaisir.</h1>
+   </div>
+   <div className="">
+   <img src={Gallery} alt="" />
+   </div>
+
+</div>
     </section>
   );
 };

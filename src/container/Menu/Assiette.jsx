@@ -3,26 +3,26 @@ import { Dessert1 } from "../../constants";
 
 const Assiette = () => {
   return (
-    <div className="py-10 bg-primary" id="Assiette">
-      <div className="flex justify-center items-center mb-12  ">
-        <h1 className="bg-secondary text-primary w-[50%] md:w-[30%] py-3 text-3xl md:text-5xl rounded-2xl font-semibold text-center ">
-        Assiette
-        </h1>
-      </div>
-      <ul className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 w-full place-items-center ">
-        {Dessert1.map((menu) => (
-          <Card
-            key={menu.id}
-            id={menu.id}
-            name={menu.name}
-            dis={menu.dis}
-            img={menu.img}
-            bgColor="secondary"
-            textColor="white"
-          />
-        ))}
-      </ul>
+    <div className="my-10" id="Assiette">
+    <div className="flex flex-col justify-center items-center my-12 space-y-2  ">
+      <h1 className=" text-primary w-[50%] md:w-[30%] py-3 text-3xl md:text-5xl rounded-2xl font-semibold text-center ">
+      Assiette
+      </h1>
+      <div className="h-[2px] bg-primary w-[15%]" />
     </div>
+    <ul className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 w-full place-items-center ">
+      {Dessert1.map((menu) => (
+        <Card
+          key={menu.id}
+          id={menu.id}
+          name={menu.name}
+          dis={menu.dis}
+          img={menu.img}
+
+        />
+      ))}
+    </ul>
+  </div>
   );
 };
 

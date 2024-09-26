@@ -8,13 +8,11 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className=" bg-secondary">
-      <nav className=" grid md:grid-cols-4 grid-cols-2 place-content-center place-items-center cont py-4 md:pt-4 h-[50px] ">
+      <nav className=" grid md:place-content-center content-center place-content-end py-4 md:pt-4 h-[50px] ">
        {/* Logo Section  */}
-        <div className="flex md:justify-end md:w-full">
-          <img src={mainLogo} alt="Logo" className=" w-64 max-[950px]:w-52" />
-        </div>
+
         {/* Menu section */}
-        <div className="hidden md:flex justify-center w-full col-span-3 ">
+        <div className="hidden md:flex justify-center w-full ">
           <ul
             className=" flex items-center gap-6 text-white max-xl:gap-2
              "
@@ -32,8 +30,8 @@ const Navbar = () => {
           </ul>
         </div>
         {/* Mobile Menu section */}
-        <div className=" md:hidden" onClick={() => setOpen(!open)}>
-          <MdMenu className="text-4xl text-primary hover:bg-primary hover:text-secondary duration-200 rounded-lg cursor-pointer max-sm:mr-2" />
+        <div className=" md:hidden " onClick={() => setOpen(!open)}>
+          <MdMenu className="text-4xl text-primary hover:bg-primary hover:text-secondary duration-200 rounded-lg cursor-pointer relative right-2 " />
           <ResponsiveMenu open={open} />
         </div>
       </nav>

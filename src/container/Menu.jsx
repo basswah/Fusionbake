@@ -8,7 +8,9 @@ const Menu = () => {
         <h1 className="font-bold">our menu </h1>
       </div>
       <Dessert />
+      <div className="bg-primary h-[8px] w-full" />
       <Assiette />
+      <div className="bg-primary h-[20px] w-full" />
     </div>
   );
 };
