@@ -22,8 +22,8 @@ const Navbar = () => {
             {NavbarMenu.map((menu) => (
               <li key={menu.id}>
                 <a
-                  href={menu.links}
-                  className=" inline-block py-3 px-3 max-lg:px-2 font-bold hover:text-primary hover:border-b-2 border-primary duration-200   "
+                  href={`#${menu.links}`}
+                  className=" inline-block py-3 px-3 max-lg:px-2 font-bold hover:text-primary hover:border-b-2 border-primary duration-200 delay-300   "
                 >
                   {menu.title}
                 </a>

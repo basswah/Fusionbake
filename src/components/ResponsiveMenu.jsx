@@ -19,7 +19,7 @@ const ResponsiveMenu = ({ open }) => {
                   key={menu.id}
                   className=" hover:bg-secondary hover:text-primary px-2 rounded-3xl duration-200 "
                 >
-                  <a href={menu.links} className="">
+                  <a href={`#${menu.links}`} className="">
                     {menu.title}
                   </a>
                 </li>

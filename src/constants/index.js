@@ -1,3 +1,5 @@
+import { HeroImg } from "../assets";
+
 const NavbarMenu = [
   {
     id: "1",
@@ -31,4 +33,26 @@ const NavbarMenu = [
   },
 ];
 
-export { NavbarMenu };
+const Dessert1 = [
+  {
+    img:"/turkish-dessert-baklava2.png",
+    id: "1",
+    name: "baclava",
+    dis: "Hello",
+  },
+  {
+    img:"/turkish-dessert-baklava2.png",
+    id: "2",
+    name: "baclava",
+    dis: "Hello",
+  }
+  ,
+  {
+    img:"/turkish-dessert-baklava2.png",
+    id: "3",
+    name: "baclava",
+    dis: "Hello",
+  }
+];
+
+export { NavbarMenu, Dessert1 };
