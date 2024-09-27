@@ -1,5 +1,8 @@
 import Assiette from "./Menu/Assiette";
 import Dessert from "./Menu/Dessert";
+import Manaich from "./Menu/Manaich";
+import Salade from "./Menu/Salade";
+import Sandwichs from "./Menu/Sandwichs";
 
 const Menu = () => {
   return (
@@ -10,6 +13,12 @@ const Menu = () => {
       <Dessert />
       <div className="bg-primary h-[8px] w-full" />
       <Assiette />
+      <div className="bg-primary h-[8px] w-full" />
+      <Salade />
+      <div className="bg-primary h-[8px] w-full" />
+      <Manaich />
+      <div className="bg-primary h-[8px] w-full" />
+      <Sandwichs />
       <div className="bg-primary h-[20px] w-full" />
     </div>
   );

@@ -15,7 +15,7 @@ const Hero = () => {
       <div>
       {/* Contact Section  */}
       <div className="bg-primary hidden md:block  ">
-        <div className=" h-[40px] grid grid-cols-2 place-content-center place-items-center ">
+        <div className=" h-[40px] grid grid-cols-2 place-content-center place-items-center content-center ">
           <div className="hidden  md:flex  items-center justify-end w-full text-white ">
             <h1 className=" font-lato font-semibold">
               Rue pré-du-marché 34 1004 Lausanne, Switzerland

@@ -14,11 +14,10 @@ const Dessert = () => {
         {Dessert1.map((menu) => (
           <Card
             key={menu.id}
-            id={menu.id}
             name={menu.name}
             dis={menu.dis}
             img={menu.img}
-
+            price={menu.price}
           />
         ))}
       </ul>
