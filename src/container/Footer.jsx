@@ -14,7 +14,7 @@ const bgImage = {
 const Footer = () => {
   return (
     <footer style={bgImage}>
-      <div className="  relative max-xl:my-6 ">
+      <div className="  relative max-xl:py-3 ">
         {/* ContactUs Section  */}
         <div className="grid grid-cols-1 md:grid-cols-2 max-lg:my-6">
           {/* Logo Section  */}
@@ -58,12 +58,26 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        {/* Blur the Image  */}
+        <div className=" bg-secondary absolute inset-0 opacity-95 z-0 " />
         {/* Map Section  */}
         <div className="relative z-10">
           <MapSection />
         </div>
-        {/* Blur the Image  */}
-        <div className=" bg-secondary absolute inset-0 opacity-95 z-0 " />
+        <div className="h-20 md:h-28 relative flex justify-center items-center text-center max-md:my-2">
+          <div className="text-xs md:text-xl text-white w-[80vw] ">
+            <h1 className="">
+              Tous droits réservés{" "}
+              <a href="" className="hover:text-primary">
+                A.B Marketing & Programming 2024 ©.
+              </a>
+            </h1>
+            <h1>
+              d'utilisation. L'utilisation de ce site est soumise à nos
+              conditions générales
+            </h1>
+          </div>
+        </div>
       </div>
     </footer>
   );

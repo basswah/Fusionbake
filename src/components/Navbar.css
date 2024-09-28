@@ -1,21 +1,18 @@
 .navbar-sticy {
-    background-color: #c2a673 !important;
-    top: 0;
-    filter: drop-shadow(0px 0px 25px #0f1115);
-
+  background-color: #c2a673 !important;
+  top: 0;
+  filter: drop-shadow(0px 0px 25px #0f1115);
 }
 
 .navbar-sticy ul li a:hover {
-      color: #0e0e0d !important ;
-      border-color: #0e0e0d !important;
-    
+  color: #0e0e0d !important ;
+  border-color: #0e0e0d !important;
 }
 
 .navbar-sticy .min-menu {
-    color: #0e0e0d !important;
+  color: #0e0e0d !important;
 }
 .navbar-sticy .min-menu:hover {
-    background-color: #0e0e0d !important;
-    color: #c2a673 !important;
+  background-color: #0e0e0d !important;
+  color: #c2a673 !important;
 }
-

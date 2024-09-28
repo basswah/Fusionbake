@@ -18,8 +18,8 @@ const Card = (props) => {
           className={` text-center p-4 space-y-4 w-[300px] bg-cardBg  rounded-md mb-10  cursor-pointer relative`}
         >
           <img src={props.img} alt="Black Coffee" className=" mx-auto w-full h-52 " />
-          <div className=" absolute top-0 right-4 rounded-2xl bg-primary h-6 w-20  flex items-center justify-end text-white uppercase">
-            <h1 className=" mr-3">
+          <div className=" absolute top-0 right-4 rounded-2xl bg-primary h-8 w-24  flex items-center justify-center text-white uppercase">
+            <h1 className="">
               {props.price}
               </h1>
             </div>

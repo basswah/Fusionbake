@@ -67,13 +67,13 @@ const Hero = () => {
           <div className="absolute h-full bg-secondary inset-0 opacity-90" />
         </div>
       </div>
-      <div className=" fixed md:right-3 bottom-3 space-y-2 z-50 flex md:flex-col max-md:justify-between max-md:w-full items-center ">
-        <div className="h-14 w-14 mx-2 rounded-full bg-primary flex justify-center items-center hover:scale-110 duration-200">
+      <div className=" fixed md:right-3 bottom-3 space-y-2 z-50 flex md:flex-col max-md:justify-between max-md:w-full items-center  ">
+        <div className="h-14 w-14 mx-2 rounded-full bg-primary flex justify-center items-center hover:scale-110 opacity-80 hover:opacity-100 duration-200">
           <a href="#Map">
             <LuMapPin className="text-white text-3xl" />
           </a>
         </div>
-        <div className="h-14 w-14 rounded-full  bg-green-500 flex justify-center items-center hover:scale-110 duration-200 mx-2">
+        <div className="h-14 w-14 rounded-full  bg-green-500 flex justify-center items-center hover:scale-110 opacity-80 hover:opacity-100 duration-200 mx-2">
           <a href="https://api.whatsapp.com/send/?phone=41779233373&text&type=phone_number&app_absent=0">
             <FaWhatsapp className="text-white text-3xl " />
           </a>
