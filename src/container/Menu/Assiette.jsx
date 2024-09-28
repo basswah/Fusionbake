@@ -3,7 +3,7 @@ import { assiette } from "../../constants";
 
 const Assiette = () => {
   return (
-    <div className="my-10" id="Assiette">
+    <div className="py-10" id="Assiette">
       <div className="flex flex-col justify-center items-center my-12 space-y-2  ">
         <h1 className=" text-primary w-[50%] md:w-[30%] py-3 text-3xl md:text-5xl rounded-2xl font-semibold text-center ">
           Assiette
