@@ -30,7 +30,7 @@ const Footer = () => {
                   <FaFacebookF />
                 </a>
               </div>
-              <div className=" p-1 bg-primary text-white hover:bg-white hover:text-pink-500 duration-200">
+              <div className=" p-1 bg-primary text-white hover:bg-gradient-to-br from-orange-400 via-pink-600 to-purple-900  hover:text-white duration-200">
                 <a href="https://www.instagram.com/Fusionbake2024">
                   <FaInstagram />
                 </a>
