@@ -52,23 +52,26 @@ const Footer = () => {
             </div>
             <div className="text-center flex  items-center justify-center">
               <FiMapPin className="" />
-              <h1 className="w-[60%]">
+              <a href=" https://maps.app.goo.gl/ANZC2u78iu24itnFA" className="hover:text-primary w-[60%]">
+
+              <h1 className="">
                 Rue pré-du-marché 34 1004 Lausanne, Switzerland
               </h1>
+              </a>
             </div>
           </div>
         </div>
         {/* Blur the Image  */}
         <div className=" bg-secondary absolute inset-0 opacity-95 z-0 " />
         {/* Map Section  */}
-        <div className="relative z-10">
+        {/* <div className="relative z-10">
           <MapSection />
-        </div>
-        <div className="h-20 md:h-28 relative flex justify-center items-center text-center max-md:my-2">
+        </div> */}
+        <div className="h-20 md:h-20 relative flex justify-center items-center text-center max-md:mt-2 bg-primary  ">
           <div className="text-xs md:text-xl text-white w-[80vw] ">
             <h1 className="">
               Tous droits réservés{" "}
-              <a href="" className="hover:text-primary">
+              <a href="" className="hover:text-secondary">
                 A.B Marketing & Programming 2024 ©.
               </a>
             </h1>

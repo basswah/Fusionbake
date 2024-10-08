@@ -17,7 +17,7 @@ const Card = (props) => {
           viewport={{ once: true }}
           className={` text-center p-4 space-y-4 w-[300px] bg-cardBg  rounded-md mb-10  cursor-pointer relative`}
         >
-          <img src={props.img} alt="Black Coffee" className=" mx-auto w-full h-52 " />
+          <img src={props.img} alt="Black Coffee" className=" mx-auto w-full h-[250px] " />
           <div className=" absolute top-0 right-4 rounded-2xl bg-primary h-8 w-24  flex items-center justify-center text-white uppercase">
             <h1 className="">
               {props.price}

@@ -49,7 +49,7 @@ const Hero = () => {
       </div>
       {/* Image Section  */}
       <div style={bgImage}>
-        <div className=" relative grid grid-cols-1 place-items-center place-content-center py-8 h-[90vh]  md:h-[110vh]">
+        <div className=" relative grid grid-cols-1 place-items-center place-content-center py-8 h-[100vh]  md:h-[110vh]">
           <div className=" relative z-10">
             <img src={mainLogo} alt="Logo" width={1000} />
           </div>
@@ -68,12 +68,12 @@ const Hero = () => {
         </div>
       </div>
       <div className=" fixed md:right-3 bottom-3 space-y-2 z-50 flex md:flex-col max-md:justify-between max-md:w-full items-center  ">
-        <div className="h-14 w-14 mx-2 rounded-full bg-primary flex justify-center items-center hover:scale-110 opacity-80 hover:opacity-100 duration-200">
-          <a href="#Map">
+        <div className="h-14 w-14 mx-2 rounded-full bg-primary flex justify-center items-center hover:scale-110 opacity-80 hover:opacity-100 duration-200 main-shadow">
+          <a href="https://maps.app.goo.gl/ANZC2u78iu24itnFA">
             <LuMapPin className="text-white text-3xl" />
           </a>
         </div>
-        <div className="h-14 w-14 rounded-full  bg-green-500 flex justify-center items-center hover:scale-110 opacity-80 hover:opacity-100 duration-200 mx-2">
+        <div className="h-14 w-14 rounded-full  bg-green-500 flex justify-center items-center hover:scale-110 opacity-80 hover:opacity-100 duration-200 mx-2 main-shadow">
           <a href="https://api.whatsapp.com/send/?phone=41779233373&text&type=phone_number&app_absent=0">
             <FaWhatsapp className="text-white text-3xl " />
           </a>

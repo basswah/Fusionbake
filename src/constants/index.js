@@ -1,4 +1,3 @@
-
 const NavbarMenu = [
   {
     id: "1",
@@ -34,21 +33,21 @@ const NavbarMenu = [
 
 const Dessert1 = [
   {
-    img: "/images/baklava.jpg",
+    img: "/images/Desserts/Baklava Mix.png",
     id: "d1",
     name: "Mix baklava",
     dis: "1kg",
     price: "45 chf",
   },
   {
-    img: "/images/baklava.jpg",
+    img: "/images/Desserts/Box baklava.png",
     id: "d2",
     name: "Box baklava",
-    dis: "Box baklava (100g ,150g ,300g ,450g ,600g ,750g ,800g ,900g ,1000g ,1200g)",
+    dis: "(De 100g à 1200g)",
     price: "chf",
   },
   {
-    img: "/images/baklava.jpg",
+    img: "/images/Desserts/Plateau des baklavas.png",
     id: "d3",
     name: "Plateau des baklavas",
     dis: "(1700g~3300g)",
@@ -56,7 +55,7 @@ const Dessert1 = [
   },
 
   {
-    img: "/images/baklava.jpg",
+    img: "/images/Desserts/Baklava.png",
     id: "d4",
     name: "Baklava",
     dis: "la pièce",
@@ -64,7 +63,7 @@ const Dessert1 = [
   },
 
   {
-    img: "/images/baklava.jpg",
+    img: "/images/Desserts/Mouhallabié .png",
     id: "d5",
     name: "Mouhallabié",
     dis: "",
@@ -119,21 +118,21 @@ const assiette = [
 
 const salade = [
   {
-    img: "/images/lebanese-fattoush-.jpg",
+    img: "/images/Salade/Taboulé.png",
     id: "s1",
     name: "Taboulé ",
     dis: "Persil,tomates,citron,boulgour, oignons ",
     price: "7 chf",
   },
   {
-    img: "/images/lebanese-fattoush-.jpg",
+    img: "/images/Salade/Fattoush.png",
     id: "s2",
     name: "Fattoush ",
     dis: "Tomates,salade,concombre,radis,pain frit,ail ",
     price: "7 chf",
   },
   {
-    img: "/images/lebanese-fattoush-.jpg",
+    img: "/images/Salade/Salade Fusion.png",
     id: "s3",
     name: "Salade Fusion ",
     dis: "Escalope de poulet,Salade melee,fromage. ",
