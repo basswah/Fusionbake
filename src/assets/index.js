@@ -6,6 +6,9 @@ import falafl from "./falafel.png";
 import food from "./food.png";
 import dessert1 from "./dessrt1.png";
 import dessert2 from "./dessrt2.png";
+import aboutus1 from "./aboutus1.jpg";
+
+import aboutus2 from "./aboutus2.jpg";
 
 export {
   mainLogo,
@@ -16,4 +19,6 @@ export {
   food,
   dessert1,
   dessert2,
+  aboutus1,
+  aboutus2,
 };
