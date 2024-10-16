@@ -17,7 +17,7 @@ const ResponsiveMenu = ({ open }) => {
               {NavbarMenu.map((menu) => (
                 <li
                   key={menu.id}
-                  className=" hover:bg-secondary hover:text-primary px-2 rounded-3xl duration-200 "
+                  className=" hover:bg-secondary hover:text-primary px-2 rounded-3xl duration-150 "
                 >
                   <a href={`#${menu.links}`}>
                     {menu.title}

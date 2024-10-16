@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         lato: ["Lato", "sans-seri"],
+        Edu: ["Edu AU VIC WA NT Guides", "cursive"],
       },
     },
   },
