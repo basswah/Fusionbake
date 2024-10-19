@@ -16,12 +16,12 @@ const Card = (props) => {
             damping: 10,
           }}
           viewport={{ once: true }}
-          className={` text-center p-4 space-y-4 w-[300px] bg-cardBg  rounded-md mb-10  cursor-pointer relative`}
+          className={`text-center p-4 space-y-4 w-[300px] h-[400px] bg-cardBg  rounded-md mb-10  cursor-pointer relative`}
         >
           <img
             src={props.img}
-            alt="Black Coffee"
             className=" mx-auto w-full h-[250px] "
+            loading="lazy"
           />
           {price === "" ? (
             ""
@@ -32,7 +32,7 @@ const Card = (props) => {
           )}
           <div className="text-white space-y-2 flex flex-col items-center w-full h-20 ">
             <h1 className="text-xl md:text-2xl capitalize">{props.name}</h1>
-            <p className="text-xs md:text-sm opacity-60">{props.dis}</p>
+            <p className="text-xs md:text-sm opacity-60 w-[80%]">{props.dis}</p>
           </div>
         </motion.div>
       </li>

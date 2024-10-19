@@ -16,4 +16,8 @@
   .price-shadow {
     filter: drop-shadow(7px 4px 14px #000000);
   }
+  .long-text-center {
+    text-align: justify;
+    text-align-last: center;
+  }
 }
