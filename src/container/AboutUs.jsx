@@ -73,7 +73,7 @@ const AboutUs = () => {
             />
           </div>
           <div className="">
-            <p className=" w-[70vw] md:w-[40vw] font-Edu">
+            <p className=" w-[70vw] md:w-[40vw]">
               Nous sommes les représentants de la société Shaba Oglu en Suisse,
               pour des commandes en gros, veuillez nous contacter.
             </p>
